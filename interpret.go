@@ -170,7 +170,7 @@ type InterpretingWriter struct {
 	p *io.PipeWriter
 }
 
-// NewColorTemplateWriter creates a ColorTemplateWriter that writes to
+// NewInterpretingWriter creates a ColorTemplateWriter that writes to
 // w while substituting the color escapes in the input.
 //
 // See Interpret for a description of color escapes.
